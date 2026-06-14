@@ -1,0 +1,17 @@
+{
+  "name": "autoceo-automation-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.10.0"
+  },
+  "description": "Selenium WebDriver automation tests for AutoCEO",
+  "scripts": {
+    "test": "mocha -r dotenv/config specs/**/*.spec.js --timeout 30000",
+    "test:login": "mocha -r dotenv/config specs/login.spec.js --timeout 30000",
+    "test:tasks": "mocha -r dotenv/config specs/tasks.spec.js --timeout 30000"
+  }
+}
