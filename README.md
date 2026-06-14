@@ -2,23 +2,23 @@
 
 Bộ kiểm thử tự động cho hệ thống **AutoCEO** — nền tảng quản lý tác vụ, nhân viên và tích hợp đa nền tảng (ClickUp, Telegram, Zalo) dành cho CEO.
 
-Dự án thuộc môn **Kiểm thử Đảm bảo Chất lượng Phần mềm (SQA)** — Nhóm 4.
+Dự án thuộc môn **Đảm bảo Chất lượng Phần mềm (SQA)**.
 
 ---
 
 ## Mục lục
 
-- [Tổng quan](#-tổng-quan)
-- [Cấu trúc dự án](#-cấu-trúc-dự-án)
-- [Công nghệ sử dụng](#-công-nghệ-sử-dụng)
-- [Cài đặt](#-cài-đặt)
-- [Chạy kiểm thử](#-chạy-kiểm-thử)
+- [Tổng quan](#tổng-quan)
+- [Cấu trúc dự án](#cấu-trúc-dự-án)
+- [Công nghệ sử dụng](#công-nghệ-sử-dụng)
+- [Cài đặt](#cài-đặt)
+- [Chạy kiểm thử](#chạy-kiểm-thử)
   - [Unit Test](#1-unit-test)
   - [Selenium UI Test](#2-selenium-ui-test)
   - [Postman API Test](#3-postman-api-test)
   - [JMeter Load Test](#4-jmeter-load-test)
-- [Phạm vi kiểm thử](#-phạm-vi-kiểm-thử)
-- [Yêu cầu hệ thống](#-yêu-cầu-hệ-thống)
+- [Phạm vi kiểm thử](#phạm-vi-kiểm-thử)
+- [Yêu cầu hệ thống](#yêu-cầu-hệ-thống)
 
 ---
 
@@ -152,7 +152,7 @@ npm install --save-dev jest @jest/globals
 
 ---
 
-##Chạy kiểm thử
+## Chạy kiểm thử
 
 ### 1. Unit Test
 
